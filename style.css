@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 40px;
+background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px  50px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+ul li {
+    list-style: none;
+  
+
+}
+.shop{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+gap: 10px;
+
+}
+
+.shop i p {
+align-items: center;
+
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color: white;
+    font-size: 50px;
+}
+.container p {
+    color: rgb(177, 170, 170);
+    padding: 10px;
+}
+
+.sample{
+    width: 100%;
+    height: 150vh;
+    background-color: azure;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 300px;
+    height: 370px;
+    background-color: #ffffff;
+    border: 1px solid #c4c1c5;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+
+.box .fox {
+    width: 100%;
+    height: 45%;
+    background-image: url(https://dummyimage.com/450x300/dee2e6/6c757d.jpg);
+    background-size: cover;
+
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+padding: 20px;
+gap: 20px;
+  
+ 
+}
+.star {
+    color: gold;
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+.click{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    border-radius: 10px;
+position: absolute;
+top: 10px;
+right: 40px;
+    
+}
+
+.click p {
+    text-align: center;
+  /* padding: 8px; */
+  color: #ffffff;
+}
+.border h5 {
+    font-size: large
+}
+
+.border p {
+/* padding-top:10px ; */
+}
+
+button {
+    padding: 3px 30px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: transparent;
+/* margin: 30px 90px; */
+cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(47, 29, 29);
+    color: #ffffff;
+}
+
+.finish {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple {
+    font-size: 20px;
+    color: aliceblue;
+}
